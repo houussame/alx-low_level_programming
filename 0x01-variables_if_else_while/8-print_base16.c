@@ -18,7 +18,7 @@ int main(void)
 
 		/* after 9 we jump till 96; '*/
 		if (digit == 57)
-			digit += 39;
+			digit++ = 39;
 		digit++
 	}
 	putchar('\n');
