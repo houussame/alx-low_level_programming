@@ -4,7 +4,7 @@
  *_strcat - a function that concatenates two strings
  *@dest: pointer to destnation input
  *@src: pointer to source input
- *Return: Always 0
+ *Return: void
 */
 
 char *_strcat(char *dest, char *src)
