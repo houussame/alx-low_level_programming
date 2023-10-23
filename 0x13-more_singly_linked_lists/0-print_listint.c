@@ -1,5 +1,5 @@
-#include"lists.h"
-
+#include "lists.h"
+#include <stdio.h>
 /**
  *print_listint - function that prints all the elements
  *@h:pointer to first node
