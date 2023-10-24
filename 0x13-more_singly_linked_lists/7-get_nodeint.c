@@ -18,5 +18,5 @@ node = node->next;
 a++;
 }
 
-return (NULL);
+return (node ? node : NULL);
 }
