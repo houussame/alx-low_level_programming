@@ -14,9 +14,8 @@ if (!new_node)
 return (NULL);
 
 new_node->n = n;
-new_node->next = NULL;
-NULL->*head;
-*head->new_node;
+new_node->next = *head;
+*head == NULL;
 return (new);
 }
 
