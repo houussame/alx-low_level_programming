@@ -18,5 +18,10 @@ new->next = NULL;
 if (*head == NULL)
 	*head = new;
 return (new);
+
+while (new->next)
+new = new->next;
+new->next = *head;
+return (new);
 }
 
