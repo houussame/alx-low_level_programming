@@ -15,7 +15,7 @@ return (NULL);
 new->n = n;
 new->next = NULL;
 
-while (*head == NULL)
+if (*head == NULL)
 	*head = new;
 return (new);
 }
